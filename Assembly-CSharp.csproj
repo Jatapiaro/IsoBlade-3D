@@ -94,6 +94,8 @@
      <Compile Include="Assets\Graph_Maker\Scripts\WMG_Series.cs" />
      <Compile Include="Assets\Scripts\DataMenu.cs" />
      <Compile Include="Assets\Scripts\DataMenuMaster.cs" />
+     <Compile Include="Assets\Scripts\FileReader.cs" />
+     <Compile Include="Assets\Scripts\PlotScript.cs" />
      <Compile Include="Assets\Scripts\RotateBlade.cs" />
      <None Include="Assets\Graph_Maker\Shaders\ComputeCircularBand.compute" />
      <None Include="Assets\Graph_Maker\DOTween\readme.txt" />
@@ -128,14 +130,14 @@
  <Reference Include="DOTween">
  <HintPath>/Users/jacobotapia/Desktop/IsoBlade-3D/Assets/Graph_Maker/DOTween/DOTween.dll</HintPath>
  </Reference>
- <Reference Include="DOTween50">
- <HintPath>/Users/jacobotapia/Desktop/IsoBlade-3D/Assets/Graph_Maker/DOTween/DOTween50.dll</HintPath>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/jacobotapia/Desktop/IsoBlade-3D/Assets/Graph_Maker/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
  <HintPath>/Users/jacobotapia/Desktop/IsoBlade-3D/Assets/Graph_Maker/DOTween/DOTween46.dll</HintPath>
  </Reference>
- <Reference Include="DOTween43">
- <HintPath>/Users/jacobotapia/Desktop/IsoBlade-3D/Assets/Graph_Maker/DOTween/DOTween43.dll</HintPath>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/jacobotapia/Desktop/IsoBlade-3D/Assets/Graph_Maker/DOTween/DOTween50.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
